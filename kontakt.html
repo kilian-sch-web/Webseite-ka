@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Christian Sichel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="index.html">Christian Sichel | <span class="text-primary">Lawyer-Linguist</span></a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rechtsanwalt.html">Rechtsanwalt</a></li>
+                    <li><a href="uebersetzer.html">Übersetzer</a></li>
+                    <li><a href="ueber-mich.html">Über mich</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h2>Kontakt</h2>
+            <p>Ich freue mich auf Ihre Anfrage. Bitte nutzen Sie das Formular oder kontaktieren Sie mich direkt.</p>
+        </section>
+
+        <section class="content-section">
+            <div class="contact-details">
+                <h3>Direkter Kontakt</h3>
+                <p><strong>Christian Sichel</strong></p>
+                <p>Adresse: Musterstraße 1, 73760 Ostfildern</p>
+                <p>Telefon: +49 (0) 123 456789</p>
+                <p>E-Mail: kontakt@christiansichel.eu</p>
+            </div>
+
+            <form id="contact-form">
+                <h3>Kontaktformular</h3>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Anfrage betrifft</label>
+                    <select id="service" name="service">
+                        <option value="allgemein">Allgemeine Anfrage</option>
+                        <option value="rechtsanwalt">Rechtsberatung</option>
+                        <option value="uebersetzer">Übersetzung</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ihre Nachricht</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn">Anfrage senden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
+            </ul>
+            <p>&copy; 2024 Christian Sichel. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
